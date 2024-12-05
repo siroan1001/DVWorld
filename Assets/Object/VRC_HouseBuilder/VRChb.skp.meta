@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: 704a25d651caf8945b04ae849e548484
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 4619dc1637febfcac16ddf599a928dc9
+  longitude: 139.75
+  latitude: 35.667
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 47.165695, y: 21.189808, z: 39.950176}
+      lookAt: {x: 42.300495, y: 19.211887, z: 35.968063}
+      up: {x: -0.23222972, y: 0.9539078, z: -0.1900772}
+      fov: 45
+      aspectRatio: 0
+      orthoSize: 251.60347
+      isPerspective: 0
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Group 1
+    100002: Group 136
+    100004: Group 138
+    100006: Group 140
+    100008: Group 142
+    100010: Group 145
+    100012: Group 147
+    100014: Group 149
+    100016: Group 152
+    100018: Group 154
+    100020: Group 156
+    100022: Group 158
+    100024: Group 3
+    100026: Group 42
+    100028: Group 44
+    100030: Group 5
+    100032: Group 55
+    100034: Group 56
+    100036: Group 58
+    100038: Group 60
+    100040: Group 62
+    100042: Group 64
+    100044: Group 66
+    100046: Group 68
+    100048: Group 70
+    100050: Group 75
+    100052: Group 77
+    100054: Group 79
+    100056: Group 81
+    100058: Group 83
+    100060: Group 86
+    100062: Group 88
+    100064: Group 90
+    100066: Group 93
+    100068: Group 95
+    100070: Group 97
+    100072: Group 99
+    100074: //RootNode
+    100076: "\u30B0\u30EB\u30FC\u30D7#13"
+    100078: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14"
+    100080: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 1"
+    100082: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 2"
+    100084: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 3"
+    100086: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 4"
+    100088: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3"
+    100090: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 1"
+    100092: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 10"
+    100094: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 11"
+    100096: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 12"
+    100098: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 13"
+    100100: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 14"
+    100102: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 15"
+    100104: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 16"
+    100106: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 17"
+    100108: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 18"
+    100110: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 19"
+    100112: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 2"
+    100114: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 20"
+    100116: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 21"
+    100118: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 22"
+    100120: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 23"
+    100122: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 24"
+    100124: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 25"
+    100126: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 26"
+    100128: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 27"
+    100130: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 28"
+    100132: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 29"
+    100134: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 3"
+    100136: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 30"
+    100138: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 31"
+    100140: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 32"
+    100142: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 33"
+    100144: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 34"
+    100146: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 35"
+    100148: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 4"
+    100150: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 5"
+    100152: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 6"
+    100154: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 7"
+    100156: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 8"
+    100158: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 9"
+    100160: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#4"
+    100162: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#4 1"
+    100164: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#4 2"
+    100166: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5"
+    100168: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5 1"
+    100170: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5 2"
+    100172: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5 3"
+    100174: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5 4"
+    100176: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5 5"
+    400000: Group 1
+    400002: Group 136
+    400004: Group 138
+    400006: Group 140
+    400008: Group 142
+    400010: Group 145
+    400012: Group 147
+    400014: Group 149
+    400016: Group 152
+    400018: Group 154
+    400020: Group 156
+    400022: Group 158
+    400024: Group 3
+    400026: Group 42
+    400028: Group 44
+    400030: Group 5
+    400032: Group 55
+    400034: Group 56
+    400036: Group 58
+    400038: Group 60
+    400040: Group 62
+    400042: Group 64
+    400044: Group 66
+    400046: Group 68
+    400048: Group 70
+    400050: Group 75
+    400052: Group 77
+    400054: Group 79
+    400056: Group 81
+    400058: Group 83
+    400060: Group 86
+    400062: Group 88
+    400064: Group 90
+    400066: Group 93
+    400068: Group 95
+    400070: Group 97
+    400072: Group 99
+    400074: //RootNode
+    400076: "\u30B0\u30EB\u30FC\u30D7#13"
+    400078: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14"
+    400080: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 1"
+    400082: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 2"
+    400084: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 3"
+    400086: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 4"
+    400088: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3"
+    400090: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 1"
+    400092: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 10"
+    400094: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 11"
+    400096: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 12"
+    400098: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 13"
+    400100: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 14"
+    400102: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 15"
+    400104: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 16"
+    400106: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 17"
+    400108: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 18"
+    400110: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 19"
+    400112: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 2"
+    400114: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 20"
+    400116: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 21"
+    400118: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 22"
+    400120: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 23"
+    400122: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 24"
+    400124: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 25"
+    400126: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 26"
+    400128: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 27"
+    400130: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 28"
+    400132: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 29"
+    400134: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 3"
+    400136: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 30"
+    400138: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 31"
+    400140: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 32"
+    400142: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 33"
+    400144: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 34"
+    400146: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 35"
+    400148: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 4"
+    400150: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 5"
+    400152: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 6"
+    400154: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 7"
+    400156: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 8"
+    400158: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 9"
+    400160: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#4"
+    400162: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#4 1"
+    400164: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#4 2"
+    400166: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5"
+    400168: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5 1"
+    400170: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5 2"
+    400172: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5 3"
+    400174: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5 4"
+    400176: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#5 5"
+    2100000: Steel
+    2100002: glass
+    2100004: Wood1
+    2100006: white
+    2100008: emission
+    2100010: Ground
+    2100012: Concrete
+    2100014: Wood2
+    2100016: WoodFloor
+    2300000: Group 1
+    2300002: Group 138
+    2300004: Group 140
+    2300006: Group 142
+    2300008: Group 145
+    2300010: Group 147
+    2300012: Group 149
+    2300014: Group 152
+    2300016: Group 154
+    2300018: Group 156
+    2300020: Group 158
+    2300022: Group 3
+    2300024: Group 42
+    2300026: Group 56
+    2300028: Group 58
+    2300030: Group 60
+    2300032: Group 62
+    2300034: Group 64
+    2300036: Group 66
+    2300038: Group 68
+    2300040: Group 75
+    2300042: Group 79
+    2300044: Group 81
+    2300046: Group 83
+    2300048: Group 86
+    2300050: Group 88
+    2300052: Group 90
+    2300054: Group 93
+    2300056: Group 95
+    2300058: Group 97
+    2300060: "\u30B0\u30EB\u30FC\u30D7#13"
+    2300062: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14"
+    2300064: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 1"
+    2300066: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 2"
+    2300068: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 3"
+    2300070: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 4"
+    2300072: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3"
+    2300074: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 1"
+    2300076: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 10"
+    2300078: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 11"
+    2300080: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 12"
+    2300082: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 13"
+    2300084: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 14"
+    2300086: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 15"
+    2300088: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 16"
+    2300090: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 17"
+    2300092: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 18"
+    2300094: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 19"
+    2300096: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 2"
+    2300098: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 20"
+    2300100: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 21"
+    2300102: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 22"
+    2300104: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 23"
+    2300106: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 24"
+    2300108: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 25"
+    2300110: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 26"
+    2300112: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 27"
+    2300114: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 28"
+    2300116: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 29"
+    2300118: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 3"
+    2300120: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 30"
+    2300122: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 31"
+    2300124: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 32"
+    2300126: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 33"
+    2300128: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 34"
+    2300130: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 35"
+    2300132: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 4"
+    2300134: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 5"
+    2300136: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 6"
+    2300138: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 7"
+    2300140: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 8"
+    2300142: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 9"
+    2300144: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#4"
+    2300146: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#4 1"
+    2300148: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#4 2"
+    3300000: Group 1
+    3300002: Group 138
+    3300004: Group 140
+    3300006: Group 142
+    3300008: Group 145
+    3300010: Group 147
+    3300012: Group 149
+    3300014: Group 152
+    3300016: Group 154
+    3300018: Group 156
+    3300020: Group 158
+    3300022: Group 3
+    3300024: Group 42
+    3300026: Group 56
+    3300028: Group 58
+    3300030: Group 60
+    3300032: Group 62
+    3300034: Group 64
+    3300036: Group 66
+    3300038: Group 68
+    3300040: Group 75
+    3300042: Group 79
+    3300044: Group 81
+    3300046: Group 83
+    3300048: Group 86
+    3300050: Group 88
+    3300052: Group 90
+    3300054: Group 93
+    3300056: Group 95
+    3300058: Group 97
+    3300060: "\u30B0\u30EB\u30FC\u30D7#13"
+    3300062: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14"
+    3300064: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 1"
+    3300066: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 2"
+    3300068: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 3"
+    3300070: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14 4"
+    3300072: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3"
+    3300074: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 1"
+    3300076: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 10"
+    3300078: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 11"
+    3300080: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 12"
+    3300082: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 13"
+    3300084: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 14"
+    3300086: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 15"
+    3300088: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 16"
+    3300090: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 17"
+    3300092: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 18"
+    3300094: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 19"
+    3300096: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 2"
+    3300098: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 20"
+    3300100: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 21"
+    3300102: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 22"
+    3300104: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 23"
+    3300106: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 24"
+    3300108: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 25"
+    3300110: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 26"
+    3300112: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 27"
+    3300114: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 28"
+    3300116: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 29"
+    3300118: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 3"
+    3300120: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 30"
+    3300122: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 31"
+    3300124: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 32"
+    3300126: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 33"
+    3300128: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 34"
+    3300130: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 35"
+    3300132: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 4"
+    3300134: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 5"
+    3300136: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 6"
+    3300138: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 7"
+    3300140: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 8"
+    3300142: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3 9"
+    3300144: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#4"
+    3300146: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#4 1"
+    3300148: "\u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#4 2"
+    4300000: Mesh Group 1
+    4300002: Mesh Group 3
+    4300004: "Mesh \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#3"
+    4300006: Mesh Group 42
+    4300008: "Mesh \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#14"
+    4300010: Mesh Group 56
+    4300012: Mesh Group 58
+    4300014: Mesh Group 60
+    4300016: Mesh Group 62
+    4300018: Mesh Group 64
+    4300020: Mesh Group 66
+    4300022: Mesh Group 68
+    4300024: "Mesh \u30B3\u30F3\u30DD\u30FC\u30CD\u30F3\u30C8#4"
+    4300026: Mesh Group 75
+    4300028: Mesh Group 79
+    4300030: Mesh Group 81
+    4300032: Mesh Group 158
+    4300034: "Mesh \u30B0\u30EB\u30FC\u30D7#13"
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete
+    second: {fileID: 2100000, guid: 3082905c7f5ec0c419bd9a7560c92c40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ground
+    second: {fileID: 2100000, guid: 2f055406070f31d43999e0c8ac1be5da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel
+    second: {fileID: 2100000, guid: 4d63d13f4b383924aa53a0427f3b7c47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood1
+    second: {fileID: 2100000, guid: eebbfa56d2a736f46863ae072401aed6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood2
+    second: {fileID: 2100000, guid: 2f9fe51797d96bf479ea75efe9284fbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodFloor
+    second: {fileID: 2100000, guid: 8ab803bc10bfe9d46b8ff7201e0d9525, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: emission
+    second: {fileID: 2100000, guid: 49b6a9e3ef63a5a478a45cde6f027911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: a984b0b3e765ffd418ab8aed57fa3fb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: white
+    second: {fileID: 2100000, guid: c742f20416c98d143bf93380e29f535f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 1
+    secondaryUVAreaDistortion: 1
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 40
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
