@@ -11,10 +11,46 @@ public class MapEditorWindow : EditorWindow
     private GameObject prefabToPlace;
     private GameObject selectedObject;
 
+    private Camera editorCamera;
+    private RenderTexture renderTexture;
+
     [MenuItem("Tools/Map Editor")]
     public static void ShowWindow()
     {
         GetWindow<MapEditorWindow>("Map Editor");
+    }
+
+    private void OnEnable()
+    {
+        // カメラとRenderTextureを初期化
+        if (!editorCamera)
+        {
+            GameObject cameraObject = new GameObject("Editor Camera");
+            editorCamera = cameraObject.AddComponent<Camera>();
+            editorCamera.transform.position = new Vector3(0, 10, 0);
+            editorCamera.transform.rotation = Quaternion.Euler(90, 0, 0);
+            editorCamera.orthographic = true;
+            editorCamera.orthographicSize = 10;
+            editorCamera.clearFlags = CameraClearFlags.Skybox;
+            editorCamera.targetTexture = new RenderTexture(512, 512, 16);
+            renderTexture = editorCamera.targetTexture;
+
+            // シーンにカメラを表示しない
+            cameraObject.hideFlags = HideFlags.HideAndDontSave;
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (editorCamera)
+        {
+            DestroyImmediate(editorCamera.gameObject);
+        }
+
+        if (renderTexture)
+        {
+            DestroyImmediate(renderTexture);
+        }
     }
 
     private void OnGUI()
@@ -22,7 +58,6 @@ public class MapEditorWindow : EditorWindow
         GUILayout.Label("Map Editor", EditorStyles.boldLabel);
 
         // モード選択
-        GUILayout.Label("Mode", EditorStyles.label);
         currentMode = (Mode)GUILayout.Toolbar((int)currentMode, new string[] { "Select", "Add", "Remove" });
 
         // 追加モードのプレハブ選択
@@ -36,26 +71,26 @@ public class MapEditorWindow : EditorWindow
         {
             GUILayout.Label("Selected Object: " + selectedObject.name, EditorStyles.helpBox);
         }
+
+        // カメラビューを描画
+        GUILayout.Label("Scene View", EditorStyles.boldLabel);
+        Rect cameraRect = GUILayoutUtility.GetRect(512, 512);
+        EditorGUI.DrawPreviewTexture(cameraRect, renderTexture);
+
+        // カメラビュー内のクリックを検出
+        HandleCameraViewInput(cameraRect);
     }
 
-    private void OnEnable()
-    {
-        SceneView.duringSceneGui += OnSceneGUI;
-    }
-
-    private void OnDisable()
-    {
-        SceneView.duringSceneGui -= OnSceneGUI;
-    }
-
-    private void OnSceneGUI(SceneView sceneView)
+    private void HandleCameraViewInput(Rect cameraRect)
     {
         Event e = Event.current;
 
-        // シーンビューでクリックイベントを検出
-        if (e.type == EventType.MouseDown && e.button == 0)
+        // クリック検出
+        if (e.type == EventType.MouseDown && e.button == 0 && cameraRect.Contains(e.mousePosition))
         {
-            Ray ray = HandleUtility.GUIPointToWorldRay(e.mousePosition);
+            Vector2 localClick = e.mousePosition - new Vector2(cameraRect.x, cameraRect.y);
+            Ray ray = editorCamera.ScreenPointToRay(new Vector3(localClick.x, cameraRect.height - localClick.y, 0));
+
             if (Physics.Raycast(ray, out RaycastHit hit))
             {
                 HandleClick(hit.point);
@@ -128,4 +163,3 @@ public class MapEditorWindow : EditorWindow
         );
     }
 }
-
